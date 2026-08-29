@@ -1,0 +1,45 @@
+[
+  {
+    "type": "function",
+    "name": "executeSponsored",
+    "stateMutability": "payable",
+    "inputs": [
+      {
+        "name": "request",
+        "type": "tuple",
+        "components": [
+          { "name": "account", "type": "address" },
+          { "name": "nonce", "type": "uint256" },
+          { "name": "deadline", "type": "uint256" },
+          { "name": "sponsor", "type": "address" },
+          { "name": "feeToken", "type": "address" },
+          { "name": "gasFeeAmount", "type": "uint256" },
+          { "name": "serviceFeeAmount", "type": "uint256" },
+          { "name": "feeReceiver", "type": "address" },
+          { "name": "callsHash", "type": "bytes32" }
+        ]
+      },
+      {
+        "name": "calls",
+        "type": "tuple[]",
+        "components": [
+          { "name": "target", "type": "address" },
+          { "name": "value", "type": "uint256" },
+          { "name": "data", "type": "bytes" }
+        ]
+      },
+      { "name": "userSignature", "type": "bytes" }
+    ],
+    "outputs": [{ "name": "returnData", "type": "bytes[]" }]
+  },
+  {
+    "type": "event",
+    "name": "SponsoredCallForwarded",
+    "anonymous": false,
+    "inputs": [
+      { "name": "account", "type": "address", "indexed": true },
+      { "name": "sponsor", "type": "address", "indexed": true },
+      { "name": "callsHash", "type": "bytes32", "indexed": false }
+    ]
+  }
+]

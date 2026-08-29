@@ -1,0 +1,45 @@
+# Node modules
+/node_modules
+
+# Compilation output
+/dist
+
+# pnpm deploy output
+/bundle
+
+# Hardhat Build Artifacts
+/artifacts
+
+# Hardhat compilation (v2) support directory
+/cache
+
+# Typechain output
+/types
+
+# Local agent files
+/.agent/
+/.agents/
+
+# macOS Finder metadata
+.DS_Store
+
+# Hardhat Ignition deployment state
+/ignition/deployments/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Hardhat coverage reports
+/coverage
+
+# Gas snapshot files
+/.gas-snapshot
+
+# Snapshot cheatcodes output
+/snapshots
+
+# Canary dry-run output. Regenerated on every preview; the live report and the
+# hand-written acceptance records are the ones worth keeping.
+/evm-7702-sponsored/reports/self-relayer-canary-dry-run.*

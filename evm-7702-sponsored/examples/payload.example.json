@@ -1,0 +1,37 @@
+{
+  "chainId": 56,
+  "chainKey": "bsc",
+  "to": "0xSponsorRouter0000000000000000000000000000000000",
+  "value": "0",
+  "data": "0x1234",
+  "request": {
+    "account": "0xUser00000000000000000000000000000000000000",
+    "nonce": "0",
+    "deadline": "1780000000",
+    "sponsor": "0xSponsor000000000000000000000000000000000",
+    "feeToken": "0x55d398326f99059fF775485246999027B3197955",
+    "gasFeeAmount": "1000000000000000",
+    "serviceFeeAmount": "0",
+    "feeReceiver": "0xFeeReceiver000000000000000000000000000000",
+    "callsHash": "0x0000000000000000000000000000000000000000000000006aed34e6bddff5e1"
+  },
+  "calls": [],
+  "userSignature": "0x...",
+  "authorizationList": [],
+  "context": {
+    "user": "0xUser00000000000000000000000000000000000000",
+    "sponsor": "0xSponsor000000000000000000000000000000000",
+    "merchant": "0xMerchant000000000000000000000000000000000",
+    "feeToken": "0x55d398326f99059fF775485246999027B3197955",
+    "feeTokenSymbol": "USDT",
+    "feeTokenDecimals": 18,
+    "feeReceiver": "0xFeeReceiver000000000000000000000000000000",
+    "paymentAmount": "1000000000000000",
+    "gasFeeAmount": "1000000000000000",
+    "serviceFeeAmount": "0",
+    "totalFeeAmount": "1000000000000000",
+    "totalRequiredAmount": "2000000000000000",
+    "verified": true,
+    "needsCanary": false
+  }
+}

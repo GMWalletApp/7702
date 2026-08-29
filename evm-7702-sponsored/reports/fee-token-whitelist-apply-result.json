@@ -1,0 +1,60 @@
+{
+  "generatedAt": "2026-06-30T10:04:17.164Z",
+  "warning": "Whitelist writes completed/skipped as listed. Production canary verification remains separate.",
+  "results": [
+    {
+      "chainKey": "ethereum",
+      "chainId": 1,
+      "policyRegistry": "0x00000000000000000000000057f71eb4fbe79dd9",
+      "registryOwner": "0x000000000000000000000000ef303ac085f1e696",
+      "signerAddress": "0x000000000000000000000000ef303ac085f1e696",
+      "tokenSymbolConfigured": "USDT",
+      "tokenAddress": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+      "onchainSymbol": "USDT",
+      "onchainDecimals": 6,
+      "beforeIsSupportedFeeToken": false,
+      "afterIsSupportedFeeToken": true,
+      "txHash": "0x000000000000000000000000000000000000000000000000cc5607d8aed1818a",
+      "blockNumber": "25429774",
+      "gasUsed": "48367",
+      "status": "submitted",
+      "note": "Whitelist write succeeded. This does not mark SDK verified=true and does not replace small-value canary."
+    },
+    {
+      "chainKey": "bsc",
+      "chainId": 56,
+      "policyRegistry": "0x000000000000000000000000ca848390f7e66b59",
+      "registryOwner": "0x000000000000000000000000ef303ac085f1e696",
+      "signerAddress": "0x000000000000000000000000ef303ac085f1e696",
+      "tokenSymbolConfigured": "USDC",
+      "tokenAddress": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+      "onchainSymbol": "USDC",
+      "onchainDecimals": 18,
+      "beforeIsSupportedFeeToken": false,
+      "afterIsSupportedFeeToken": true,
+      "txHash": "0x0000000000000000000000000000000000000000000000001ab5a224980e6b18",
+      "blockNumber": "107233716",
+      "gasUsed": "48367",
+      "status": "submitted",
+      "note": "Whitelist write succeeded. This does not mark SDK verified=true and does not replace small-value canary."
+    },
+    {
+      "chainKey": "arbitrumOne",
+      "chainId": 42161,
+      "policyRegistry": "0x000000000000000000000000ca848390f7e66b59",
+      "registryOwner": "0x000000000000000000000000ef303ac085f1e696",
+      "signerAddress": "0x000000000000000000000000ef303ac085f1e696",
+      "tokenSymbolConfigured": "USDT",
+      "tokenAddress": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+      "onchainSymbol": "USD₮0",
+      "onchainDecimals": 6,
+      "beforeIsSupportedFeeToken": false,
+      "afterIsSupportedFeeToken": true,
+      "txHash": "0x000000000000000000000000000000000000000000000000d8ed262759ec66fd",
+      "blockNumber": "478888832",
+      "gasUsed": "48539",
+      "status": "submitted",
+      "note": "Whitelist write succeeded. This does not mark SDK verified=true and does not replace small-value canary. Arbitrum on-chain symbol is USDt0 / USDT0; treat as USDT-compatible."
+    }
+  ]
+}

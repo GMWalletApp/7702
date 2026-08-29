@@ -1,0 +1,78 @@
+{
+  "generatedAt": "2026-06-30T09:44:24.501Z",
+  "warning": "Calldata only. Do not broadcast from this script. Whitelist enablement does not complete production canary verification.",
+  "rows": [
+    {
+      "chainKey": "ethereum",
+      "chainId": 1,
+      "rpcChainId": 1,
+      "policyRegistry": "0x00000000000000000000000057f71eb4fbe79dd9",
+      "hasRegistryCode": true,
+      "registryOwner": "0x000000000000000000000000ef303ac085f1e696",
+      "ownerHasCode": false,
+      "tokenSymbolConfigured": "USDT",
+      "tokenAddress": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+      "hasTokenCode": true,
+      "onchainSymbol": "USDT",
+      "onchainDecimals": 6,
+      "expectedDecimals": 6,
+      "currentIsSupportedFeeToken": false,
+      "functionName": "setSupportedFeeToken",
+      "args": {
+        "token": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "supported": true
+      },
+      "calldata": "0xe487dcb8000000000000000000000000dac17f958d2ee523a2206206994597c13d831ec70000000000000000000000000000000000000000000000000000000000000001",
+      "recommendedExecutor": "OWNER_EOA_CONFIRM_REQUIRED",
+      "note": "Current registry value is false; calldata enables this fee token. Owner appears to be an EOA; owner must review and submit manually. Whitelist enablement does not mark SDK verified=true and does not replace small-value canary."
+    },
+    {
+      "chainKey": "bsc",
+      "chainId": 56,
+      "rpcChainId": 56,
+      "policyRegistry": "0x000000000000000000000000ca848390f7e66b59",
+      "hasRegistryCode": true,
+      "registryOwner": "0x000000000000000000000000ef303ac085f1e696",
+      "ownerHasCode": false,
+      "tokenSymbolConfigured": "USDC",
+      "tokenAddress": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+      "hasTokenCode": true,
+      "onchainSymbol": "USDC",
+      "onchainDecimals": 18,
+      "expectedDecimals": 18,
+      "currentIsSupportedFeeToken": false,
+      "functionName": "setSupportedFeeToken",
+      "args": {
+        "token": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "supported": true
+      },
+      "calldata": "0xe487dcb80000000000000000000000008ac76a51cc950d9822d68b83fe1ad97b32cd580d0000000000000000000000000000000000000000000000000000000000000001",
+      "recommendedExecutor": "OWNER_EOA_CONFIRM_REQUIRED",
+      "note": "Current registry value is false; calldata enables this fee token. Owner appears to be an EOA; owner must review and submit manually. Whitelist enablement does not mark SDK verified=true and does not replace small-value canary."
+    },
+    {
+      "chainKey": "arbitrumOne",
+      "chainId": 42161,
+      "rpcChainId": 42161,
+      "policyRegistry": "0x000000000000000000000000ca848390f7e66b59",
+      "hasRegistryCode": true,
+      "registryOwner": "0x000000000000000000000000ef303ac085f1e696",
+      "ownerHasCode": false,
+      "tokenSymbolConfigured": "USDT",
+      "tokenAddress": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+      "hasTokenCode": true,
+      "onchainSymbol": "USD₮0",
+      "onchainDecimals": 6,
+      "expectedDecimals": 6,
+      "currentIsSupportedFeeToken": false,
+      "functionName": "setSupportedFeeToken",
+      "args": {
+        "token": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "supported": true
+      },
+      "calldata": "0xe487dcb8000000000000000000000000fd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb90000000000000000000000000000000000000000000000000000000000000001",
+      "recommendedExecutor": "OWNER_EOA_CONFIRM_REQUIRED",
+      "note": "Current registry value is false; calldata enables this fee token. Owner appears to be an EOA; owner must review and submit manually. Whitelist enablement does not mark SDK verified=true and does not replace small-value canary. Arbitrum on-chain symbol is USDt0 / USDT0; treat as USDT-compatible."
+    }
+  ]
+}

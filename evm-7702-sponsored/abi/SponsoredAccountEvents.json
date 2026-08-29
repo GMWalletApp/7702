@@ -1,0 +1,48 @@
+[
+  {
+    "type": "event",
+    "name": "SponsoredExecuted",
+    "anonymous": false,
+    "inputs": [
+      { "name": "account", "type": "address", "indexed": true },
+      { "name": "sponsor", "type": "address", "indexed": true },
+      { "name": "nonce", "type": "uint256", "indexed": true },
+      { "name": "callsHash", "type": "bytes32", "indexed": false }
+    ]
+  },
+  {
+    "type": "event",
+    "name": "NonceUsed",
+    "anonymous": false,
+    "inputs": [
+      { "name": "account", "type": "address", "indexed": true },
+      { "name": "nonce", "type": "uint256", "indexed": true }
+    ]
+  },
+  {
+    "type": "event",
+    "name": "FeePaid",
+    "anonymous": false,
+    "inputs": [
+      { "name": "account", "type": "address", "indexed": true },
+      { "name": "sponsor", "type": "address", "indexed": true },
+      { "name": "feeToken", "type": "address", "indexed": true },
+      { "name": "feeReceiver", "type": "address", "indexed": false },
+      { "name": "gasFeeAmount", "type": "uint256", "indexed": false },
+      { "name": "serviceFeeAmount", "type": "uint256", "indexed": false },
+      { "name": "totalFeeAmount", "type": "uint256", "indexed": false }
+    ]
+  },
+  {
+    "type": "event",
+    "name": "CallExecuted",
+    "anonymous": false,
+    "inputs": [
+      { "name": "account", "type": "address", "indexed": true },
+      { "name": "index", "type": "uint256", "indexed": true },
+      { "name": "target", "type": "address", "indexed": true },
+      { "name": "value", "type": "uint256", "indexed": false },
+      { "name": "returnData", "type": "bytes", "indexed": false }
+    ]
+  }
+]
