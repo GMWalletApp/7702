@@ -17,10 +17,10 @@ The repository uses a sponsor private key directly. It does not depend on a
 third-party relayer API.
 
 > [!WARNING]
-> This software controls real transactions and has not been presented as a
-> completed independent security audit. Review the contracts, protect all
-> production keys with appropriate signing infrastructure, test with
-> `--dry-run`, and use small canary amounts before production use.
+>This software has undergone an internal security review but has not yet been independently audited by an external security firm. Before using or >deploying the code, you should carefully review all components and assess any potential security, operational, and financial risks.
+
+>You are solely responsible for your deployment, configuration, security practices, and use of this software, including any transactions or losses >resulting from its use.
+
 
 ## How it works
 
