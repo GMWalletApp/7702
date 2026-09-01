@@ -310,9 +310,3 @@ Sanitized deployment and acceptance summaries are retained in
 `evm-7702-sponsored/reports/`. Operator addresses, user addresses, transaction
 hashes, provider identifiers, and deployment journals are intentionally not
 published.
-
-## License
-
-No license has been added yet. Until a license is selected, normal copyright
-rules apply; public visibility alone does not grant permission to copy, modify,
-or redistribute the code.
